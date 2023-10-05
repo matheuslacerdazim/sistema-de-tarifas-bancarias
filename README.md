@@ -1,13 +1,19 @@
 Sistema de tarifas bancarias em C#.
 
-Este projeto é um sistema de gerenciamento de tarifas para contas bancárias que inclui diferentes tipos de contas, como Conta Corrente, 
-Conta Internacional e Conta Cripto. Ele calcula tarifas com base no saldo das contas e gera dados de saída para análise. O projeto é 
-escrito em C# e utiliza conceitos de programação orientada a objetos e eventos para realizar os cálculos e gerar os resultados.
+Este sistema consiste em:
+
+* Pega os dados do aquivo Dados.txt através do método LerArquivoClientes e insere-os na variável lista.
+* Instancia-se o GerenciadorDeTarifa, o qual roda item por item instanciando la dentro cada um dos
+tipos de conta e calculando suas respectivas tarifas e convertendo para reais as contas que estão em dolar.
+Ainda no GenrenciadorDeTarifa, através de events e delegates, imprime-se no console um contador que mostra o
+progresso dos calculos, e ao fim exibe uma mensagem indicando que o arquivo com os dados do cliente ,ja tarifados e convertidos, foi gerado com sucesso.
+ 
 
 Recursos:
 
 Cálculo de tarifas para diferentes tipos de contas.
-Geração de dados de saída para análise.
+Uso de classes abstratas, interfaces, polimorfismo e Linq para diminuir a verbosidade do código.
+Geração de arquivos de saída.
 Uso de delegates e events para notificar o progresso e coletar dados.
 Programação orientada a objetos para representar as contas bancárias.
 
