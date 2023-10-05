@@ -11,10 +11,10 @@ progresso dos calculos, e ao fim exibe uma mensagem indicando que o arquivo com 
 
 Recursos:
 
-Cálculo de tarifas para diferentes tipos de contas.
-Uso de classes abstratas, interfaces, polimorfismo e Linq para diminuir a verbosidade do código.
-Geração de arquivos de saída.
-Uso de delegates e events para notificar o progresso e coletar dados.
-Programação orientada a objetos para representar as contas bancárias.
+* Cálculo de tarifas para diferentes tipos de contas.
+* Uso de classes abstratas, interfaces, polimorfismo e Linq para diminuir a verbosidade do código.
+* Geração de arquivos de saída.
+* Uso de delegates e events para notificar o progresso e coletar dados.
+* Programação orientada a objetos para representar as contas bancárias.
 
 Sinta-se à vontade para ajustar ou expandir essa descrição de acordo com suas preferências e para adicionar detalhes adicionais sobre o projeto, como instruções de como executá-lo ou qualquer outra informação relevante.
